@@ -1,0 +1,13 @@
+/* Breakpoints */
+@mixin mobile {
+    @media screen and (max-width: map-get($breakpoints, mobile)) {
+        @content;
+    }
+}
+
+@mixin input_select {
+    width: 250px;
+    padding: 5px 10px;
+    display: block;
+    box-sizing: border-box;
+}
