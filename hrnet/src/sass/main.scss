@@ -1,6 +1,12 @@
-
+@import './Utils/typography';
+@import './Utils/variables';
+@import './Utils/mixins';
+@import './Base/base';
+@import './Components/header';
+@import './Components/form';
 @import './Components/table';
+@import './Components/input';
 @import './Components/select';
+@import './Components/modal';
+@import './Components/datepicker';
 @import './Pages/_employeesList';
-
-

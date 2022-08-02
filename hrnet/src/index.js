@@ -1,16 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './styles/index.css';
-import'./sass/main.scss';
-import App from './App';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { createRoot } from 'react-dom/client';
+import './sass/main.scss'
+import CreateEmployee from './pages/CreateEmployee';
+import EmployeesList from './pages/EmployeesList'
+import { EmployeesProvider } from './utils/context'
 
-
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const container = document.getElementById('root')
+const root = createRoot(container)
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <EmployeesProvider>
+        <Routes>
+          <Route path={'/'} element={<CreateEmployee />} />
+          <Route path={'/employees-list'} element={<EmployeesList />} />
+        </Routes>
+      </EmployeesProvider>
+    </BrowserRouter>
   </React.StrictMode>
-);
-
+)
