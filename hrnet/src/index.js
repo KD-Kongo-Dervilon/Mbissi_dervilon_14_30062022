@@ -13,8 +13,8 @@ root.render(
     <BrowserRouter>
       <EmployeesProvider>
         <Routes>
-          <Route path={'/'} element={<CreateEmployee />} />
-          <Route path={'/employees-list'} element={<EmployeesList />} />
+          <Route path='/' element={<CreateEmployee />} />
+          <Route path='/employees-list' element={<EmployeesList />} />
         </Routes>
       </EmployeesProvider>
     </BrowserRouter>
