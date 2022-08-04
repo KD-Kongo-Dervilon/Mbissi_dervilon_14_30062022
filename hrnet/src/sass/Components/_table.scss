@@ -13,6 +13,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        
 
 
         .selectAmountEntries select {
@@ -64,7 +65,7 @@
 
         thead,
         tfoot {
-            background-color: #333;
+            background: $blue;
             color: #fff;
         }
     }
@@ -73,6 +74,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        
 
         span {
             background: #f2f2f2;
