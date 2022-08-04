@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Mbissi_dervilon_14_30062022/static/css/main.25651314.css",
+    "main.js": "/Mbissi_dervilon_14_30062022/static/js/main.26e908c9.js",
+    "index.html": "/Mbissi_dervilon_14_30062022/index.html",
+    "main.25651314.css.map": "/Mbissi_dervilon_14_30062022/static/css/main.25651314.css.map",
+    "main.26e908c9.js.map": "/Mbissi_dervilon_14_30062022/static/js/main.26e908c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25651314.css",
+    "static/js/main.26e908c9.js"
+  ]
+}
