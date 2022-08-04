@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { Table } from 'table-oc-graphigreg'
+import { Table } from 'table_openclassroom_dervilon'
 import { EmployeesContext } from '../../utils/context'
 import data from '../../mocks'
 
@@ -10,6 +10,7 @@ import data from '../../mocks'
  *
  * @returns {React.ReactElement}
  */
+
 function EmployeesList() {
   const labels = data.labels
   const { employees } = React.useContext(EmployeesContext)
