@@ -1,4 +1,3 @@
-//@ts-check
 
 import { useState } from 'react'
 import Input from '../Input'
@@ -88,9 +87,9 @@ function Form({ states, departments, setSubmitData }) {
     }
 
     if (
-      regexName.test(firstName) === true &&
-      firstName.length > 1 &&
-      regexName.test(lastName) === true &&
+      regexName.test(firstName) === true ||
+      firstName.length > 1 ||
+      regexName.test(lastName) === true ||
       lastName.length > 1
     ) {
       setSubmitData(newEmployee)
